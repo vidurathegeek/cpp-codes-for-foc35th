@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int num;
-int fact = 1;
+double fact = 1;
 int main(){
 	printf("Enter any number \n");
 	scanf("%d", &num);

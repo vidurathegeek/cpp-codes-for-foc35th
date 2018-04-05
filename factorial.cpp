@@ -10,3 +10,4 @@ int main(){
 	}
 	printf(" %d \n",fact );
 }
+// FOM 35th vidurathegeek

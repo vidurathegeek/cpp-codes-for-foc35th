@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int x,nx;
+int x;
 int tot;
 
 int main(){

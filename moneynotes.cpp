@@ -11,41 +11,57 @@ int main (){
 		notes=notes-5000;
 		count5+=1;
 	}
+	if(count5!=0){
+		cout<<"5000 notes " << count5 <<endl;
+	}
 	while (notes >= 2000){
 		notes=notes-2000;
 		count2+=1;
+	}
+	if(count2!=0){
+		cout<<"2000 notes " << count2 <<endl;
 	}
 	while (notes >= 1000){
 		notes=notes-5000;
 		count1+=1;
 	}
+	if(count1!=0){
+		cout<<"1000 notes " << count1 <<endl;
+	}
 	while (notes >= 500){
 		notes=notes-500;
 		count500+=1;
+	}
+	if(count500!=0){
+		cout<<"500 notes " << count500 <<endl;
 	}
 	while (notes >= 100){
 		notes=notes-100;
 		count100+=1;
 	}
+	if(count100!=0){
+		cout<<"100 notes " << count100 <<endl;
+	}
 	while (notes >= 50){
 		notes=notes-50;
 		count50+=1;
+	}
+	if(count50!=0){
+		cout<<"50 notes " << count50 << endl;
 	}
 	while (notes >= 20){
 		notes=notes-20;
 		count20+=1;
 	}
+	if(count20!=0){
+		cout<<"20 notes " << count20 << endl;
+	}
 	while (notes >= 10){
 		notes=notes-10;
 		count10+=1;
 	}
-	cout<<"5000 notes" << count5 <<endl;
-	cout<<"2000 notes" << count2 <<endl;
-	cout<<"1000 notes" << count1 <<endl;
-	cout<<"500 notes" << count500 <<endl;
-	cout<<"100 notes" << count100 <<endl;
-	cout<<"50 notes" << count50 << endl;
-	cout<<"20 notes" << count20 << endl;
-	cout<<"10 notes" << count10 << endl;
+	if(count10!=0){
+		cout<<"10 notes " << count10 << endl;
+	}	
 }
-//FOC 53th vidurathegeek
+//FOC 35th vidurathegeek

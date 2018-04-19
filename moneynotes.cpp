@@ -22,7 +22,7 @@ int main (){
 		cout<<"2000 notes " << count2 <<endl;
 	}
 	while (notes >= 1000){
-		notes=notes-5000;
+		notes=notes-1000;
 		count1+=1;
 	}
 	if(count1!=0){

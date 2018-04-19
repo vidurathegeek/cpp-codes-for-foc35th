@@ -12,8 +12,6 @@ int main(){
 	    revno = revno*10 + n;
 		x=x/10;	
 	}
-    cout << revno << endl;
-    cout << xn << endl;
     if (xn==revno){
     	cout << "It's a Palindrome" << endl;
 	}

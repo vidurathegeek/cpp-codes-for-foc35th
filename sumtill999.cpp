@@ -15,3 +15,4 @@ int main(){
 		cout << tot << endl;
 	}	
 }
+//FOC 35 vidurathegeek

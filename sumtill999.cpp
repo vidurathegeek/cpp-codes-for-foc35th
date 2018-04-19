@@ -6,13 +6,11 @@ int x,nx;
 int tot;
 
 int main(){
-	while (true){
+	cin >> x;
+	while (x!=999){
+		tot+=x;
 		cin >> x;
-		while (x!=999){
-			tot+=x;
-			cin >> x;
-		}
-		cout << tot << endl;
-	}	
+	}
+	cout << tot << endl;
 }
 //FOC 35 vidurathegeek

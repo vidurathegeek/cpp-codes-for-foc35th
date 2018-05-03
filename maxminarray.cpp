@@ -21,3 +21,4 @@ int main(){
 	cout << min << endl;
 	cout << maxm << endl;
 }
+//FOC 15th vidurathegeek
